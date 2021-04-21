@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>達文西的秘密</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+</head>
+<body>
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">首頁</a></li>
+										<li><a href="#about" class="scroll">介紹</a></li>
+										<li><a href="#gallery" class="scroll">遊戲畫面</a></li>
+										<li><a href="#team" class="scroll">角色介紹</a></li>
+										<li><a href="#blog" class="scroll">宣傳影片</a></li>
+									</ul>
+								</nav>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>解謎遊戲</h3>
+												<p>是一款網頁遊戲</p>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>遊戲發想</h3>
+												<p>結合2D+3D畫面</p>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									$(function () {
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+									});
+								 </script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="about" id="about"> 
+		<div class="container"> 
+			<div class="welcome">
+				<div class="agileits-title"> 
+					<h2>介紹</h2>
+					<p>各位玩家好～我們是達文西的秘密！<br> 將會帶領玩家穿越到18.19世紀破解一起離奇死亡案件！</p>
+				</div>
+			</div>
+			<div class="about-w3lsrow"> 
+				<div class="col-md-7 col-sm-7 w3about-img"> 
+					<div class="w3about-text"> 
+						<h5 class="w3l-subtitle">Logo設計理念</h5>
+						<p>故事時間從現今穿越到中世紀，搭配線條象徵穿越時空的感覺！子彈孔是遊戲當中重要線索之一，中間的光芒寓意帶領玩家尋找線索回到現實世界。</p>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="markets" id="markets">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>遊戲章節介紹</h3>
+			</div>
+			<div class="markets-grids">
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-book" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>貝克街密案</h5>
+							<p>夜晚的貝克街上，一名政治家的女兒離奇死亡，死亡時呈現非常怪異的姿勢，警方判定為自殺。在這件案子之中，牽扯出了先前的兩起案件，這之間又有什麼樣的關聯呢？</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-book" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>米蘭恩寵聖母院默示錄</h5>
+							<p>在報紙上發現了默示錄，留下的訊息將發生怎樣的事件呢？在聖西羅球場、達文西的馬、威尼斯門、斯福爾扎古堡所獲得的線索，能成功的阻止案件的發生嗎？</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-book" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>蒙娜麗莎的秘密</h5>
+							<p>接連的兩樁案件經過整理後，竟然得到了共通點，達文西、藥物、藝術，所有的線索通通指向了羅浮宮內的達文西紀念展，事件的真相終於要揭開了!?</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>遊戲畫面</h3> 
+			</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">全部</li>
+				<li class="w3layouts agileits" data-filter="1">第一章</li>
+				<li class="w3layouts agileits" data-filter="2">第二章</li>
+				<li class="w3layouts agileits" data-filter="3">第三章</li>
+			</ul>
+
+			<div class="filtr-container w3layouts agileits">
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
+					<a href="images/1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>書房</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Luminous night">
+					<a href="images/2.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/2.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>酒館</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1" data-sort="City wonders">
+					<a href="images/3.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/3.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>關卡</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2" data-sort="In production">
+					<a href="images/4.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/4.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>威尼斯門</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Industrial site">
+					<a href="images/5.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/5.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>斯福爾扎古堡</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Peaceful lake">
+					<a href="images/6.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/6.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>聖西羅球場</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="City lights">
+					<a href="images/7.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/7.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>畫廊</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<a href="images/8.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/8.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>羅浮宮</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<a href="images/9.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/9.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>合照</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">遊戲理念</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/1920-1080.jpg" alt="" />
+						<p>這款解謎網頁遊戲是透過2D和3D場景製作，主角和朋友因高中選組發生爭執，夜晚主角看著福爾摩斯小說進入夢鄉。
+							當主角醒來，發現穿越到福爾摩斯的書房，於是在遊戲中尋找出去的線索。使用對象為面臨選組的高中生和大學生，
+							及喜愛解謎遊戲的玩家，希望減少刻板印象和文理組的矛盾。多元領域應該要互相切磋學習，就此同時也因應了現今社會發展，所衍伸的斜槓人才。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading"> 
+					<h3>製作團隊</h3> 
+				</div>
+				<div class="w3-agile-testimonial">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider3">
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img">
+											<img src="images/team2.jpg"alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<h5>陳芳伶</h5>
+										<h6>總執行製作</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img">
+											<img src="images/team3.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<h5>鄒瀞萱</h5>
+										<h6>主企劃/劇本</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img2">
+											<img src="images/team1.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<h5>林慧琳</h5>
+										<h6>主程式/測試</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img">
+											<img src="images/team4.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<h5>劉威琳</h5>
+										<h6>主美術/行銷</h6>
+									</div>
+									<li>
+										<div class="testimonial-img-grid">
+											<div class="testimonial-img">
+												<img src="images/team5.jpg" alt="" />
+											</div>										
+											<div class="clearfix"> </div>
+										</div>
+										<div class="testimonial-img-info">
+											<h5>黃馨儀</h5>
+											<h6>主行銷/美術</h6>
+										</div>
+									</li>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script>
+									$(function () {
+									  $("#slider3").responsiveSlides({
+										auto: true,
+										pager:false,
+										nav:false,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="team" id="team">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>角色介紹</h3> 
+			</div>
+			<div class="agileits-team-grids">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t1.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>艾瑪‧蘭多夫</h4>
+							<p>Emma Randolph</p>
+							<p>年齡：34歲<br>個性：女強人，態度強硬<br>背景：是布萊克‧亞瑟的未婚妻</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t2.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>考爾比‧杰拉德</h4>
+							<p>Colby Gerard</p>
+							<p>年齡:32歲<br>個性:冷漠，崇拜達文西<br>背景:自小父母離異。在7歲時，被莫里亞蒂教授收留</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t3.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>哈利‧杰佛森</h4>
+							<p>Harry Jefferson</p>
+							<p>年齡：36歲<br>個性：做事按部就班<br>背景：達文西紀念展的策展人</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t4.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>麗莎‧奎瓦茵</h4>
+							<p>Lisa Cuevain</p>
+							<p>年齡：30歲<br>個性：內向害羞，細心<br>背景：從小與考爾比為青梅竹馬，在哈利家中當僕人</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div id="blog" class="blog">
+		<div class="container"> 
+			<div class="agileits-title">
+				<h3>宣傳影片</h3>
+			</div> 
+			<div class="wthree-blog-grids">
+				<div class="col-md-6 w3-agileits-blog-grid">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe width="950" height="534" src="https://www.youtube.com/embed/HeNgx43fq8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>	
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed"> 
+					<div class="footer-title">
+						<h3>關於我們</h3>
+					</div> 
+					<p>中國文化大學 資訊傳播學系<br>CAN IC 2021文化資傳 畢業成果展<br>展覽時間:5月14日-5月16日<br>展覽地點:松山文創園區4號倉庫</p>
+				</div>
+				<div class="col-md-4 amet-sed amet-medium">
+					<div class="footer-title">
+						<h3>感謝贊助</h3>	
+					</div> 
+					<img src="images/benq.png" alt="benqlogo">	
+					<img src="images/mobiuz.png" alt="mobiuzlogo">	
+					<img src="images/amd.png" alt="amdlogo">	
+					<img src="images/hyperx.png" alt="hyperxlogo">	
+					<img src="images/taco.png" alt="tacologo">	
+				</div>
+				<div class="col-md-4 amet-sed ">
+					<div class="footer-title">
+						<h3>關注我們</h3>
+					</div> 
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="https://www.facebook.com/Da.Vin.Secret"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/da.vincis_secret"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UClw7OdQ_gYrg0-Oepa5HrBg"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="https://github.com/davinsecret"><i class="fa fa-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">© 2021 達文西的秘密 . </p>
+		</div>
+	</div>
+	<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {		
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+</body>	
+</html>
